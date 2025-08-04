@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 section.school {
     background-image: url('../img/Entrance_to_Inglemoor_High_School.png');
     background-position: center top;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    font-family: 'Josefin Sans', 'Lucida Sans', Verdana, sans-serif;
 }
 
 section.sky {
@@ -38,7 +41,7 @@ h1 {
     text-align: center;
     font-size: 3em;
     color: rgb(253, 236, 204);
-    text-shadow: 3px 3px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: 4px 4px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .center {
@@ -74,12 +77,13 @@ section.school p {
     background-color: rgb(253, 236, 204);
     color: rgb(12, 12, 85);
     font-size: 24px;
-    width: 15%;
+    width: 17%;
 }
 
 p.box {
     border-color: rgb(12, 97, 34);
     border-radius: 10px;
-    border:5px solid;
+    border: 5px solid;
     border-style: double;
+    padding: 10px;
 }
