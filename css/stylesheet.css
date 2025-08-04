@@ -1,0 +1,85 @@
+section.school {
+    background-image: url('../img/Entrance_to_Inglemoor_High_School.png');
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+section.sky {
+    background-image: url('../img/blue-sky-clouds-repeat.jpg');
+    background-repeat: repeat;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: #08410b;
+    color: rgb(253, 236, 204);
+    font-size: 1.5em;
+    display: inline-block;
+    width: 100%;
+}
+
+nav > ul {
+    display: inline-block;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: rgb(253, 236, 204);
+    text-shadow: 3px 3px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+section.school img.left {
+    margin-left: 10%;
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    vertical-align: middle;
+}
+
+section.school img.right {
+
+    margin-top: 2%;
+    margin-left: 10%;
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    vertical-align: middle;
+}
+
+section.school p {
+    vertical-align: top;
+    margin-top: 40px;
+    margin-left: 5%;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(253, 236, 204);
+    color: rgb(12, 12, 85);
+    font-size: 24px;
+    width: 15%;
+}
+
+p.box {
+    border-color: rgb(12, 97, 34);
+    border-radius: 10px;
+    border:5px solid;
+    border-style: double;
+}
