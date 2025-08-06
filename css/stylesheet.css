@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 section.school {
-    background-image: url('../img/Entrance_to_Inglemoor_High_School.png');
+    background-image: url('../img/Entrance_to_Inglemoor_High_School.webp');
     background-position: center top;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ nav {
     display: block;
     text-align: center;
     margin: auto;
-    background-color: #08410b;
+    background-color: #5a741f;
     color: rgb(253, 236, 204);
     font-size: 1.5em;
     display: inline-block;
@@ -53,6 +53,7 @@ main {
     display: grid;
     grid-template-columns: 30% 35% 30%;
     place-items: center;
+    margin-top: 100px;
 }
 
 section.school img.left {
