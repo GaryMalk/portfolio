@@ -26,6 +26,14 @@ section.pine {
     margin-bottom: 100px;
 }
 
+section.leaf {
+    background-image: url('../img/leaf.webp');
+    background-repeat: repeat;
+    display: grid;
+    place-items: center;
+    margin-bottom: 100px;
+}
+
 nav {
     display: block;
     text-align: center;
