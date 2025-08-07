@@ -26,9 +26,9 @@ section.pine {
 }
 
 section.leaf {
-    background-image: url('../img/leaf.webp');
+    background-image: url('../img/leaves.png');
     background-repeat: repeat;
-    background-size: 600px 399px;
+    background-size: 300px 300px;
     display: grid;
     place-items: center;
     margin-bottom: 100px;
