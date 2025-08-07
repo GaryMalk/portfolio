@@ -70,7 +70,7 @@ nav a {
 /* The subnavigation menu */
 .subnav {
     float: right;
-    margin-right: 15%;
+    margin-right: 5%;
     overflow: hidden;
 }
 
@@ -80,9 +80,6 @@ nav a {
     border: none;
     outline: none;
     color: rgb(253, 236, 204);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
     margin: 0;
 }
 
@@ -95,27 +92,25 @@ nav a {
     width: 100%;
     z-index: 1;
     float: right;
-    margin-top: 5px;
+    padding: 5px;
 }
 
 /* Style the subnav links */
 .subnav-content a {
     color: rgb(253, 236, 204);
     text-decoration: none;
+    margin-top: 10px;
     margin-left: 0;
     margin-right: 0;
     font-size: 18px;
-    padding: 50px 20px;
 }
 
+.subnavbtn:hover,
 .subnav:hover .subnavbtn {
     color: rgb(248, 209, 33);
 }
 
-/* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content,
 .subnav-content:hover {
-    display: block;
     color: rgb(248, 209, 33);
 }
 
@@ -187,7 +182,6 @@ section.school div.box.intasc p {
     width: 95%;
     padding: 2%;
 } 
-
 
 section div.box {
     vertical-align: top;
