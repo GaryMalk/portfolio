@@ -95,6 +95,11 @@ nav a {
     padding: 5px;
 }
 
+/* default to an open subnav menu when viewing a submenu page */
+section.intasc .subnav-content {
+    display: block;
+}
+
 /* Style the subnav links */
 .subnav-content a {
     color: rgb(253, 236, 204);
@@ -120,6 +125,10 @@ h1 {
     font-size: 3em;
     color: rgb(253, 236, 204);
     text-shadow: 4px 4px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-top: 50px;
+}
+
+h1.home {
     margin-top: 100px;
 }
 
@@ -200,7 +209,7 @@ section div.box {
     border: 5px solid;
     border-style: double;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 section.pine div.box p {
