@@ -134,7 +134,10 @@ h3 {
 .center {
     margin: auto;
     text-align: center;
-    display: inline-block;
+}
+
+.italics {
+    font-style: italic;
 }
 
 main {
@@ -204,7 +207,7 @@ section.pine div.box p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-blockquote {
+blockquote.quote {
     text-align: center;
     font-family: 'Style Script';
     font-size: 32px;
@@ -214,5 +217,5 @@ blockquote.attrib {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     text-align: right;
-    margin-top: -25px;
+    margin-top: -10px;
 }
