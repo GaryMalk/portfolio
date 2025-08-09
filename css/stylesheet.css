@@ -12,8 +12,12 @@ section.school {
     background-position: center top;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    display: grid;
+    
     place-items: center;
+    position: absolute; /* take it out of normal flow */
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 section.pine {
@@ -201,7 +205,7 @@ section div.box {
     background-color: rgb(253, 236, 204);
     color: rgb(12, 12, 85);
     font-size: 24px;
-    width: 75%;
+    width: 76%;
     min-width: 200px;
     height: fit-content;
     border-color: rgb(12, 97, 34);
@@ -210,6 +214,10 @@ section div.box {
     border-style: double;
     padding: 20px;
     margin-top: 20px;
+}
+
+section div.box.intasc {
+    margin-left: 12%;
 }
 
 section.pine div.box p {
