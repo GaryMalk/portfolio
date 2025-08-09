@@ -8,16 +8,32 @@ body {
 }
 
 section.school {
-    background-image: url('../img/Entrance_to_Inglemoor_High_School.webp');
     background-position: center top;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    
     place-items: center;
-    position: absolute; /* take it out of normal flow */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+}
+
+section.inglemoor {
+    background-image: url('../img/Entrance_to_Inglemoor_High_School.webp');
+}
+
+section.cwusign {
+    background-image: url('../img/CWU_sign.jpg');
+
+}
+
+section.cwu {
+    background-image: url('../img/CWU_building.jpg');
+
+}
+
+section.lwtech {
+    background-image: url('../img/lwtech.jpg');
 }
 
 section.pine {
@@ -195,7 +211,7 @@ section.school div.box {
     height: fit-content;
 }
 
-section.school div.box.intasc p {
+div.box.intasc p {
     width: 95%;
     padding: 2%;
 } 
