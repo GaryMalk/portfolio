@@ -54,6 +54,17 @@ section.leaf {
     margin-bottom: 100px;
 }
 
+section.intasc.grid {
+    display: grid;
+    place-items: top;
+    grid-template-columns: 40% 31% 26%;
+    column-gap: 0;
+}
+
+section.intasc.grid img {
+    width: 100%;
+}
+
 nav {
     text-align: center;
     padding-top: 20px;
@@ -206,14 +217,14 @@ section.school div.box {
     background-color: rgb(253, 236, 204);
     color: rgb(12, 12, 85);
     font-size: 24px;
-    width: 75%;
+    margin: 12px;
+    width: 85%;
     min-width: 200px;
     height: fit-content;
 }
 
 div.box.intasc p {
-    width: 95%;
-    padding: 2%;
+    width: 100%;
 } 
 
 section div.box {
@@ -234,7 +245,7 @@ section div.box {
 }
 
 section div.box.intasc {
-    margin-left: 12%;
+    margin-left: 6%;
 }
 
 section.pine div.box p {
