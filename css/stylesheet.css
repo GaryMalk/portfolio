@@ -72,7 +72,7 @@ section.intasc.grid3 img {
     margin: auto;
 }
 
-section.intasc.grid2 img, embed {
+section.intasc.grid2 img, section.intasc.grid2 embed {
     margin-left: 3%;
 }
 
