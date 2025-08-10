@@ -34,6 +34,7 @@ section.cwu {
 
 section.lwtech {
     background-image: url('../img/lwtech.jpg');
+    background-repeat: no-repeat;
 }
 
 section.pine {
@@ -64,6 +65,13 @@ section.intasc.grid2 {
     display: grid;
     place-items: center top;
     grid-template-columns: 50% 50%;
+}
+
+section.grid1 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 100%;
+    margin: auto;
 }
 
 section.intasc.grid2 img,
@@ -169,11 +177,16 @@ h1 {
     font-size: 3em;
     color: rgb(253, 236, 204);
     text-shadow: 4px 4px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-top: 50px;
+    margin-top: 45px;
+    margin-bottom: 10px;
 }
 
 h1.home {
     margin-top: 100px;
+}
+
+h1.intasc {
+    margin-top: 55px;
 }
 
 h2,
@@ -245,15 +258,20 @@ section div.box {
     background-color: rgb(253, 236, 204);
     color: rgb(12, 12, 85);
     font-size: 24px;
-    width: 76%;
+    width: 85%;
     min-width: 200px;
     height: fit-content;
     border-color: rgb(12, 97, 34);
     border-radius: 10px;
     border: 5px solid;
     border-style: double;
-    padding: 20px;
+    padding: 5px 25px;
     margin-top: 20px;
+}
+
+section div.box.quote {
+    width: 550px;
+    margin-top: 12px;
 }
 
 section div.box.intasc {
@@ -274,5 +292,4 @@ blockquote.attrib {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     text-align: right;
-    margin-top: -10px;
 }
