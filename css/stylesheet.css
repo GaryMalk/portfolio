@@ -54,16 +54,28 @@ section.leaf {
     margin-bottom: 100px;
 }
 
-section.intasc.grid {
+section.intasc.grid3 {
     display: grid;
     place-items: top;
     grid-template-columns: 40% 31% 26%;
-    column-gap: 0;
 }
 
-section.intasc.grid img {
-    width: 100%;
+section.intasc.grid2 {
+    display: grid;
+    place-items: center top;
+    grid-template-columns: 50% 50%;
 }
+
+section.intasc.grid2 img,
+section.intasc.grid3 img {
+    width: 98%;
+    margin: auto;
+}
+
+section.intasc.grid2 img, embed {
+    margin-left: 3%;
+}
+
 
 nav {
     text-align: center;
@@ -225,7 +237,7 @@ section.school div.box {
 
 div.box.intasc p {
     width: 100%;
-} 
+}
 
 section div.box {
     vertical-align: top;
