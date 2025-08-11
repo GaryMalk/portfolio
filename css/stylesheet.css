@@ -23,6 +23,12 @@ section.inglemoor {
     background-repeat: no-repeat;
 }
 
+section.inglemoor-pine {
+    background-image: url('../img/Entrance_to_Inglemoor_High_School.webp'), url('../img/pine-needles-small.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: 100% auto, 100px 150px;
+}
+
 section.cwusign {
     background-image: url('../img/CWU_sign.jpg'), url('../img/leaves.png');
     background-repeat: no-repeat, repeat;
@@ -34,8 +40,9 @@ section.cwu {
 }
 
 section.lwtech {
-    background-image: url('../img/lwtech.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../img/lwtech.jpg'), url('../img/stones.webp');
+    background-repeat: no-repeat, repeat;
+    background-size: 100% auto, 100px 100px;
 }
 
 section.pine {
