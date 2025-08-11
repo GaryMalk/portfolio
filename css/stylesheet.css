@@ -20,16 +20,17 @@ section.school {
 
 section.inglemoor {
     background-image: url('../img/Entrance_to_Inglemoor_High_School.webp');
+    background-repeat: no-repeat;
 }
 
 section.cwusign {
-    background-image: url('../img/CWU_sign.jpg');
-
+    background-image: url('../img/CWU_sign.jpg'), url('../img/leaves.png');
+    background-repeat: no-repeat, repeat;
 }
 
 section.cwu {
     background-image: url('../img/CWU_building.jpg');
-
+    background-repeat: no-repeat;
 }
 
 section.lwtech {
@@ -65,6 +66,7 @@ section.intasc.grid3b {
     display: grid;
     place-items: top;
     grid-template-columns: 33% 33% 33%;
+    gap: 10px;
 }
 
 section.intasc.grid2 {
@@ -201,6 +203,10 @@ h3 {
     font-family: 'Josefin Sans', 'Lucida Sans', Verdana, sans-serif;
     color: black;
     margin-bottom: auto;
+}
+
+h2.left {
+    text-align: left;
 }
 
 .center {
