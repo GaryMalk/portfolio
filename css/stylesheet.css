@@ -61,10 +61,17 @@ section.intasc.grid3 {
     grid-template-columns: 40% 31% 26%;
 }
 
+section.intasc.grid3b {
+    display: grid;
+    place-items: top;
+    grid-template-columns: 33% 33% 33%;
+}
+
 section.intasc.grid2 {
     display: grid;
     place-items: center top;
     grid-template-columns: 50% 50%;
+    gap: 15px;
 }
 
 section.grid1 {
@@ -276,6 +283,10 @@ section div.box.quote {
 
 section div.box.intasc {
     margin-left: 6%;
+}
+
+section div.box.pdf {
+    width: 35%;
 }
 
 section.pine div.box p {
