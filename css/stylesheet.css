@@ -91,7 +91,6 @@ section.intasc.grid2 img, section.intasc.grid2 embed {
     margin-left: 3%;
 }
 
-
 nav {
     text-align: center;
     padding-top: 20px;
@@ -289,7 +288,7 @@ section div.box.pdf {
     width: 35%;
 }
 
-section.pine div.box p {
+section div.box p, section div.box ul, section div.box ol {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
