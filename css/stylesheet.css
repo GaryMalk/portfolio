@@ -104,6 +104,8 @@ section.intasc.grid3 img {
 
 section.intasc.grid2 img, section.intasc.grid2 embed {
     margin-left: 3%;
+    align-self: center; /* vertical centering within the grid cell */
+    justify-self: center; /* horizontal centering */
 }
 
 nav {
