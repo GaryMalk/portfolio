@@ -10,7 +10,6 @@ body {
 section.school {
     background-position: center top;
     background-size: 100% auto;
-    background-repeat: no-repeat;
     place-items: center;
     position: absolute;
     top: 0;
@@ -32,6 +31,7 @@ section.inglemoor-pine {
 section.cwusign {
     background-image: url('../img/CWU_sign.jpg'), url('../img/leaves.png');
     background-repeat: no-repeat, repeat;
+    background-size: 100% auto, 100px 100px;
 }
 
 section.cwu {
@@ -81,6 +81,13 @@ section.intasc.grid2 {
     place-items: center top;
     grid-template-columns: 50% 50%;
     gap: 15px;
+}
+
+section.intasc.grid2b {
+    display: grid;
+    place-items: center top;
+    grid-template-columns: 35% 55%;
+    gap: 100px;
 }
 
 section.grid1 {
@@ -265,6 +272,10 @@ section.school div.box {
     width: 85%;
     min-width: 200px;
     height: fit-content;
+}
+
+section.school div.box.title {
+    width: 400px;
 }
 
 div.box.intasc p {
