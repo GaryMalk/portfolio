@@ -65,7 +65,7 @@ section.leaf {
 
 section.intasc.grid3 {
     display: grid;
-    place-items: top;
+    align-items: start;
     grid-template-columns: 40% 31% 26%;
 }
 
@@ -100,7 +100,6 @@ section.grid1 {
 section.intasc.grid2 img,
 section.intasc.grid3 img {
     width: 98%;
-    margin: auto;
 }
 
 section.intasc.grid2 img, section.intasc.grid2 embed {
