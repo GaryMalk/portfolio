@@ -76,9 +76,17 @@ section.intasc.grid3b {
     gap: 10px;
 }
 
+div.grid2 {
+    display: grid;
+    place-items: center top;
+    grid-template-columns: 50% 50%;
+}
+
 section.intasc.grid2 {
     display: grid;
     place-items: center top;
+    margin-left: 2%;
+    margin-right: 2%;
     grid-template-columns: 50% 50%;
     gap: 15px;
 }
@@ -103,7 +111,6 @@ section.intasc.grid3 img {
 }
 
 section.intasc.grid2 img, section.intasc.grid2 embed {
-    margin-left: 3%;
     align-self: center; /* vertical centering within the grid cell */
     justify-self: center; /* horizontal centering */
 }
@@ -143,34 +150,42 @@ nav a {
 
 #learner {
     color: rgb(247, 109, 116);
+    text-shadow:1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33);
 }
 
 #content {
     color: rgb(166, 209, 177);
+    text-shadow:1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33);
 }
 
 #instructional {
     color: rgb(165, 209, 238);
+    text-shadow:1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33);
 }
 
 #professional {
     color: rgb(206, 134, 228);
+    text-shadow:1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33);
 }
 
 #learner:hover {
     color: rgb(248, 209, 33);
+    text-shadow:1px 1px 1px black, 4px 4px 4px rgb(247, 109, 116);
 }
 
 #content:hover {
     color: rgb(248, 209, 33);
+    text-shadow:1px 1px 1px black, 4px 4px 4px rgb(166, 209, 177);
 }
 
 #instructional:hover {
     color: rgb(248, 209, 33);
+    text-shadow:1px 1px 1px black, 4px 4px 4px rgb(165, 209, 238);
 }
 
 #professional:hover {
     color: rgb(248, 209, 33);
+    text-shadow:1px 1px 1px black, 4px 4px 4px rgb(206, 134, 228);
 }
 
 
