@@ -77,14 +77,13 @@ section.intasc.grid3 {
 
 section.intasc.grid3b {
     display: grid;
-    place-items: top;
     grid-template-columns: 33% 33% 33%;
     gap: 10px;
 }
 
-div.grid1 {
+section.grid1, div.grid1 {
     display: grid;
-    place-items: center top;
+    place-items: center;
     grid-template-columns: 100%;
     margin-bottom: 10px;
 }
@@ -95,8 +94,12 @@ div.grid1 img {
 
 div.grid2 {
     display: grid;
-    place-items: center top;
+    place-items: center;
     grid-template-columns: 50% 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
 }
 
 section.intasc {
@@ -104,35 +107,21 @@ section.intasc {
     margin-bottom: 10px;
 }
 
-section.intasc.grid2 {
+div.grid2b {
     display: grid;
-    place-items: center top;
-    margin-left: 2%;
-    margin-right: 2%;
-    grid-template-columns: 50% 50%;
-    gap: 15px;
-}
-
-section.intasc.grid2b {
-    display: grid;
-    place-items: center top;
+    place-items: center;
     grid-template-columns: 35% 55%;
     gap: 100px;
 }
 
-section.grid1 {
-    display: grid;
-    place-items: center;
-    grid-template-columns: 100%;
-}
-
-section.intasc.grid2 img,
-section.intasc.grid3 img {
+div.grid2 img,
+div.grid3 img,
+section.grid3 img {
     width: 98%;
 }
 
-section.intasc.grid2 img,
-section.intasc.grid2 embed {
+div.grid2 img,
+div.grid2 embed {
     align-self: center;
     /* vertical centering within the grid cell */
     justify-self: center;
@@ -164,7 +153,6 @@ nav a:hover {
 
 /* Navigation links */
 nav a {
-    float: center;
     font-size: 1.3em;
     color: rgb(253, 236, 204);
     text-align: center;
