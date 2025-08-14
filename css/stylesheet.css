@@ -124,11 +124,17 @@ section.grid3 img {
 
 div.grid3 img,
 div.grid2 img,
-div.grid2 embed,
 section.grid3 img,
-section.grid2 img,
-section.grid2 embed {
+section.grid2 img {
     width: 98%;
+    align-self: center;
+    /* vertical centering within the grid cell */
+    justify-self: center;
+    /* horizontal centering */
+}
+
+div.grid2 embed,
+section.grid2 embed {
     align-self: center;
     /* vertical centering within the grid cell */
     justify-self: center;
