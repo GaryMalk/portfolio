@@ -312,6 +312,10 @@ div.main {
     font-family: 'Josefin Sans', 'Lucida Sans', Verdana, sans-serif;
 }
 
+iframe {
+    border: none;
+}
+
 section.school img.left {
     display: inline-block;
     width: 100%;
