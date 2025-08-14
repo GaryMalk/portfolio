@@ -309,6 +309,8 @@ div.main {
 
 iframe {
     border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 section.school img.left {
