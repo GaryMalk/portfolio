@@ -81,7 +81,8 @@ section.intasc.grid3b {
     gap: 10px;
 }
 
-section.grid1, div.grid1 {
+section.grid1,
+div.grid1 {
     display: grid;
     place-items: center;
     grid-template-columns: 100%;
@@ -92,6 +93,7 @@ div.grid1 img {
     margin-bottom: 10px;
 }
 
+section.grid2,
 div.grid2 {
     display: grid;
     place-items: center;
@@ -120,8 +122,13 @@ section.grid3 img {
     width: 98%;
 }
 
+div.grid3 img,
 div.grid2 img,
-div.grid2 embed {
+div.grid2 embed,
+section.grid3 img,
+section.grid2 img,
+section.grid2 embed {
+    width: 98%;
     align-self: center;
     /* vertical centering within the grid cell */
     justify-self: center;
