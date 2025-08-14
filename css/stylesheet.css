@@ -28,6 +28,12 @@ section.inglemoor-pine {
     background-size: 100% auto, 100px 150px;
 }
 
+section.inglemoor-leaf {
+    background-image: url('../img/Entrance_to_Inglemoor_High_School.webp'), url('../img/leaves.png');
+    background-repeat: no-repeat, repeat;
+    background-size: 100% auto, 100px 150px;
+}
+
 section.cwusign {
     background-image: url('../img/CWU_sign.jpg'), url('../img/leaves.png');
     background-repeat: no-repeat, repeat;
@@ -76,10 +82,26 @@ section.intasc.grid3b {
     gap: 10px;
 }
 
+div.grid1 {
+    display: grid;
+    place-items: center top;
+    grid-template-columns: 100%;
+    margin-bottom: 10px;
+}
+
+div.grid1 img {
+    margin-bottom: 10px;
+}
+
 div.grid2 {
     display: grid;
     place-items: center top;
     grid-template-columns: 50% 50%;
+}
+
+section {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 section.intasc.grid2 {
@@ -102,7 +124,6 @@ section.grid1 {
     display: grid;
     place-items: center;
     grid-template-columns: 100%;
-    margin: auto;
 }
 
 section.intasc.grid2 img,
@@ -110,9 +131,12 @@ section.intasc.grid3 img {
     width: 98%;
 }
 
-section.intasc.grid2 img, section.intasc.grid2 embed {
-    align-self: center; /* vertical centering within the grid cell */
-    justify-self: center; /* horizontal centering */
+section.intasc.grid2 img,
+section.intasc.grid2 embed {
+    align-self: center;
+    /* vertical centering within the grid cell */
+    justify-self: center;
+    /* horizontal centering */
 }
 
 nav {
@@ -148,46 +172,45 @@ nav a {
     text-decoration: none;
 }
 
-#learner {
-    color: rgb(247, 109, 116);
-    text-shadow:1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33);
+a.learner {
+    color: rgb(247, 109, 116) !important;
+    text-shadow: 1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33) !important;
 }
 
-#content {
-    color: rgb(166, 209, 177);
-    text-shadow:1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33);
+a.content {
+    color: rgb(166, 209, 177) !important;
+    text-shadow: 1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33) !important;
 }
 
-#instructional {
-    color: rgb(165, 209, 238);
-    text-shadow:1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33);
+a.instructional {
+    color: rgb(165, 209, 238) !important;
+    text-shadow: 1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33) !important;
 }
 
-#professional {
-    color: rgb(206, 134, 228);
-    text-shadow:1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33);
+a.professional {
+    color: rgb(206, 134, 228) !important;
+    text-shadow: 1px 1px 1px black, 3px 3px 4px rgb(248, 209, 33) !important;
 }
 
-#learner:hover {
-    color: rgb(248, 209, 33);
-    text-shadow:1px 1px 1px black, 4px 4px 4px rgb(247, 109, 116);
+a.learner:hover {
+    color: rgb(248, 209, 33) !important;
+    text-shadow: 1px 1px 1px black, 4px 4px 4px rgb(247, 109, 116) !important;
 }
 
-#content:hover {
-    color: rgb(248, 209, 33);
-    text-shadow:1px 1px 1px black, 4px 4px 4px rgb(166, 209, 177);
+a.content:hover {
+    color: rgb(248, 209, 33) !important;
+    text-shadow: 1px 1px 1px black, 4px 4px 4px rgb(166, 209, 177) !important;
 }
 
-#instructional:hover {
-    color: rgb(248, 209, 33);
-    text-shadow:1px 1px 1px black, 4px 4px 4px rgb(165, 209, 238);
+a.instructional:hover {
+    color: rgb(248, 209, 33) !important;
+    text-shadow: 1px 1px 1px black, 4px 4px 4px rgb(165, 209, 238) !important;
 }
 
-#professional:hover {
-    color: rgb(248, 209, 33);
-    text-shadow:1px 1px 1px black, 4px 4px 4px rgb(206, 134, 228);
+a.professional:hover {
+    color: rgb(248, 209, 33) !important;
+    text-shadow: 1px 1px 1px black, 4px 4px 4px rgb(206, 134, 228) !important;
 }
-
 
 /* The subnavigation menu */
 .subnav {
@@ -361,7 +384,9 @@ section div.box.pdf {
     width: 35%;
 }
 
-section div.box p, section div.box ul, section div.box ol {
+section div.box p,
+section div.box ul,
+section div.box ol {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 

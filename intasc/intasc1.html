@@ -7,6 +7,11 @@
     <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="../img/education_icon.ico" rel="icon" type="image/x-icon">
     <script src="../script/subnav.js"></script>
+    <style>
+        img {
+            margin-left: 20px;
+        }
+    </style>
     <title>InTASC Standard #1</title>
 </head>
 
@@ -21,16 +26,16 @@
                 <div class="subnav">
                     <a href="javascript:void(0);" onclick="showIntasc()" class="subnavbtn">InTASC Standards</a>
                     <div id="subnav-content" class="subnav-content">
-                        <a href="#" id="learner">1. Learner Development</a>
-                        <a href="intasc2.html" id="learner">2. Learning Differences</a>
-                        <a href="intasc3.html" id="learner">3. Learning Environments</a>
-                        <a href="intasc4.html" id="content">4. Content Knowledge</a>
-                        <a href="intasc5.html" id="content">5. Content Application</a>
-                        <a href="intasc6.html" id="instructional">6. Assessment</a>
-                        <a href="intasc7.html" id="instructional">7. Instructional Planning</a>
-                        <a href="intasc8.html" id="instructional">8. Instructional Strategies</a>
-                        <a href="intasc9.html" id="professional">9. Prof. Learning & Ethical Practice</a>
-                        <a href="intasc10.html" id="professional">10. Leadership & Collaboration</a>
+                        <a href="#" class="learner">1. Learner Development</a>
+                        <a href="intasc2.html" class="learner">2. Learning Differences</a>
+                        <a href="intasc3.html" class="learner">3. Learning Environments</a>
+                        <a href="intasc4.html" class="content">4. Content Knowledge</a>
+                        <a href="intasc5.html" class="content">5. Content Application</a>
+                        <a href="intasc6.html" class="instructional">6. Assessment</a>
+                        <a href="intasc7.html" class="instructional">7. Instructional Planning</a>
+                        <a href="intasc8.html" class="instructional">8. Instructional Strategies</a>
+                        <a href="intasc9.html" class="professional">9. Prof. Learning & Ethical Practice</a>
+                        <a href="intasc10.html" class="professional">10. Leadership & Collaboration</a>
                     </div>
                 </div>
             </div>
@@ -49,60 +54,94 @@
                 motivations, and learning rates. Along with theory, demonstrations, and coding assignments I provide
                 mentoring, feedback, and significant scaffolding as needed. Some only need coding
                 opportunity while others struggle and need a lot of personal attention.</p>
+
+            <p>Being sensitive to learner differences also encourages learner development. Students are more motivated
+                to learn when assignments are contextualized and it leverages their strengths to increase their
+                learning, as demonstrated by my Music Man story.</p>
         </div>
 
         <section class="intasc grid3">
-            <div class="box intasc">
-                <h2>Scaffolding Computer Science</h2>
-                <p>Computer Science – Programming in C# was an introductory computer programming class for many
-                    students. The students had varying levels of background. Half the class was designated Highly
-                    Capable; many of those had previous coding experience and many were driven to learn. Many had
-                    no coding experience and needed extra help. Two had cognitive difficulties and needed scaffolding.
-                </p>
-                <p>To begin a unit, I did a code-along demonstration of a particular concept or set of concepts.
-                    Students could observe the code displayed on screen as I wrote it and were invited to “code along”.
-                    I went slowly, talking about the concept as I did, and allowing the class to direct me as to whether
-                    they needed time to catch up. After completion, the demo code I wrote would be made available to the
-                    students, as well as the code they were expected to have written with me. They were then given an
-                    assignment that was similar to the demo but different enough to require them to apply the concepts
-                    to a new context.</p>
-                <p>While the students worked on their assignment, I made the rounds, paying special attention to the
-                    students who normally needed help, but also checking in with the others and being open to questions.
-                </p>
-                <p>Students were also encouraged to help each other, and several students had “go-to” people they went
-                    to for help.</p>
-                <p>For the students who had cognitive difficulties, I would pull up a chair and talk them through the
-                    assignment. Usually the demo code was close enough for them to copy/paste or to follow the pattern
-                    for the new context. I would sometimes spend 20-25% of the assignment time with them, but it was
-                    also surprising to me how much they could accomplish on their own.</p>
-                <p>In retrospect, I wish I had put more comments in my code while I was writing it to serve as
-                    directions for students. That would have encouraged them to enter such comments in their code as
-                    they coded along, which would help them completing their assignment. It is also a good habit to
-                    develop in general.</p>
-            </div>
-            <img src="../img/scaffolding.jpg" alt="computer code to read/write to file used as scaffolding">
             <div>
                 <div class="box intasc">
-                    <h2>Adding Challenge</h2>
-                    <p>A significant number of students in my programming classes were highly capable and highly
-                        motivated. The goal was to keep their interest and provide challenging learning opportunities
-                        while not overwhelming those who need more help.</p>
-                    <p>My solution was to begin each lesson simply with what the students already knew, adding more to
-                        it until we reached the learning objectives. I taught theory first but then moved right into
-                        demonstrating how to write the code. The students who needed minimal instruction could jump
-                        right into doing the assignment without waiting for me to finish the lesson. While I was doing
-                        this, I threw out teasers by mentioning a coding technique that would solve a more complex
-                        problem that I could show them “later”, just to pique interest. Then as I did my rounds I would
-                        stop at the desks of hi-cap students and say, “hey, want to see something?” and show them the
-                        more advanced technique.</p>
-                    <p>But these extra lessons were not only offered to the students designated hi-cap. Often, while
-                        working 1:1 with a struggling student, if things were connecting for them then along with my 1:1
-                        recitation of the theory I’d elaborate a bit more and show them the technique, too. This made
-                        them feel special, recipients of the secret knowledge. Other students weren’t ready for it or
-                        not interested, and that was fine because it wasn’t required for the assignment.</p>
-                    <p>Another strategy was to add a “Challenge” problem to an assignment. It wasn’t required, but it
-                        could earn extra points.</p>
+                    <h2>Scaffolding Computer Science</h2>
+                    <p>Computer Science – Programming in C# was an introductory computer programming class for many
+                        students. The students had varying levels of background. Half the class was designated Highly
+                        Capable; many of those had previous coding experience and many were driven to learn. Many had
+                        no coding experience and needed extra help. Two had cognitive difficulties and needed
+                        scaffolding.
+                    </p>
+                    <p>To begin a unit, I did a code-along demonstration of a particular concept or set of concepts.
+                        Students could observe the code displayed on screen as I wrote it and were invited to “code
+                        along”. I went slowly, talking about the concept as I did, and allowing the class to direct me
+                        as to whether they needed time to catch up. After completion, the demo code I wrote would be
+                        made available to the students, as well as the code they were expected to have written with me.
+                        They were then given an assignment that was similar to the demo but different enough to require
+                        them to apply the concepts to a new context.</p>
+                    <p>While the students worked on their assignment, I made the rounds, paying special attention to the
+                        students who normally needed help, but also checking in with the others and being open to
+                        questions.
+                    </p>
+                    <p>Students were also encouraged to help each other, and several students had “go-to” people they
+                        went to for help.</p>
+                    <p>For the students who had cognitive difficulties, I would pull up a chair and talk them through
+                        the assignment. Usually the demo code was close enough for them to copy/paste or to follow the
+                        pattern for the new context. I would sometimes spend 20-25% of the assignment time with them,
+                        but it was also surprising to me how much they could accomplish on their own.</p>
+                    <p>In retrospect, I wish I had put more comments in my code while I was writing it to serve as
+                        directions for students. That would have encouraged them to enter such comments in their code as
+                        they coded along, which would help them completing their assignment. It is also a good habit to
+                        develop in general.</p>
                 </div>
+                <img src="../img/scaffolding.jpg" alt="computer code to read/write to file used as scaffolding">
+            </div>
+            <div class="box intasc">
+                <h2>Music Man</h2>
+                <p>One student in C# was quite frequently not working on the assignment, but rather something for
+                    music class. When I pointed out that he needs to be doing work for us, he usually argued that he
+                    can do the C# assignment at home, but &ldquo;this is due today&rdquo;. When I insist, he
+                    complies, but usually with some grumbling under his breath and a pissed-off expression. What I
+                    see him doing is composing music, and it appears to be quite advanced. Obviously this is
+                    something he&rsquo;s really into.</p>
+                <p>But I took a different tack one day. I said, &ldquo;You seem to really be into music. You know,
+                    you could look to do programming assignments related to music. Digital music techniques are huge
+                    now. I&rsquo;m a musician, too, and one program I&rsquo;d like to have is a way to replace a
+                    music binder with an iPad containing the performance list tied to the conductor&rsquo;s iPad as
+                    to a server, so that when she changes a page everyone&rsquo;s page changes, and when she brings
+                    up a new piece we all get it.&rdquo;</p>
+                <p>He was shocked. You&rsquo;re a musician? Yes, I told him. I played French Horn, Baritone,
+                    Clarinet, and Bass Clarinet in high school, and I was in choir and vocal ensemble, and took
+                    voice lessons for four years. I&rsquo;ve sung in three church choirs and I sing now in the
+                    Orthodox Church. And I delivered singing telegrams for Rhymes, Chimes, and Gorillas when I was
+                    in college. It was like he was looking at me for the first time. He called another boy in the
+                    band. &ldquo;Hey, Mr. Malkasian&rsquo;s a musician!&rdquo; We chatted a bit, I asked about their
+                    next concert. It was amazing to so quickly make a connection and see a complete turn-around in
+                    attitude. I was able to attend their Spring concert, which featured music he composed.</p>
+                <p>As with all the other students, he was assigned to a &ldquo;Hunt the Wumpus&rdquo; team for the
+                    game-building competition sponsored by Microsoft. I suggested that after he completed his
+                    assigned component, he could also create the music for his team&rsquo;s game. He worked
+                    incredibly hard, the game sounded great, and suddenly all the teams were implementing sound
+                    tracks. And his team won a trophy.</p>
+            </div>
+            <div class="box intasc">
+                <h2>Adding Challenge</h2>
+                <p>A significant number of students in my programming classes were highly capable and highly
+                    motivated. The goal was to keep their interest and provide challenging learning opportunities
+                    while not overwhelming those who need more help.</p>
+                <p>My solution was to begin each lesson simply with what the students already knew, adding more to
+                    it until we reached the learning objectives. I taught theory first but then moved right into
+                    demonstrating how to write the code. The students who needed minimal instruction could jump
+                    right into doing the assignment without waiting for me to finish the lesson. While I was doing
+                    this, I threw out teasers by mentioning a coding technique that would solve a more complex
+                    problem that I could show them “later”, just to pique interest. Then as I did my rounds I would
+                    stop at the desks of hi-cap students and say, “hey, want to see something?” and show them the
+                    more advanced technique.</p>
+                <p>But these extra lessons were not only offered to the students designated hi-cap. Often, while
+                    working 1:1 with a struggling student, if things were connecting for them then along with my 1:1
+                    recitation of the theory I’d elaborate a bit more and show them the technique, too. This made
+                    them feel special, recipients of the secret knowledge. Other students weren’t ready for it or
+                    not interested, and that was fine because it wasn’t required for the assignment.</p>
+                <p>Another strategy was to add a “Challenge” problem to an assignment. It wasn’t required, but it
+                    could earn extra points.</p>
             </div>
         </section>
     </section>
