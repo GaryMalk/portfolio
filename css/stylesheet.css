@@ -405,7 +405,6 @@ section.school img.right {
     vertical-align: middle;
 }
 
-section.school p,
 section.school div.box {
     vertical-align: top;
     display: inline-block;
@@ -421,12 +420,6 @@ section.school div.box {
 section.school div.box.title {
     width: 400px;
 }
-
-/*
-div.box.intasc p {
-    width: 100%;
-}
-*/
 
 section div.box {
     vertical-align: top;
