@@ -6,8 +6,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="../img/education_icon.ico" rel="icon" type="image/x-icon">
-    <script src="../script/subnav.js"></script>
     <title>InTASC Standard #3</title>
+    <script src="../script/subnav.js"></script>
+
+    <style>
+        div#modalbox {
+            width: 95% !important;
+        }
+        
+        /* The Image Box */
+        div.img {
+            border: 1px solid #ccc;
+        }
+
+        div.img:hover {
+            border: 1px solid #777;
+        }
+
+        /* The Image */
+        div.img img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        /* Description of Image */
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Add Responsiveness */
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 33%;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.9);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content (image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        /* Caption of Modal Image */
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        /* Add Animation */
+        .modal-content,
+        #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0.1)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Responsive Columns */
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 50%;
+                margin: 6px 0;
+            }
+
+            .modal-content {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        /* Clear Floats */
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,7 +203,7 @@
                 each other. Students with learning differences get the support they need.</p>
             <p>We also help each other feel safe by setting a ground rule that all interactions are respectful. I never
                 had to issue more than a verbal correction for disrespectful speech during my internship, but if needed
-                I could escalate to detention or support from the student’s counselor.</p>
+                I could escalate to detention or get support from the student’s counselor.</p>
             <p>A couple times I did need to have the conversation that just because your friend says he’s “okay with it”
                 doesn’t make it okay. He doesn’t want to lose your friendship. What kind of friend are you to put him in
                 that position?</p>
@@ -76,15 +231,38 @@
         </div>
 
         <div class="intasc grid2">
-            <embed src="pdf/Human_Bingo.pdf" type="application/pdf" width="800" height="1000"
+            <embed src="pdf/Human_Bingo.pdf" type="application/pdf" width="800" height="600"
                 title="Embedded PDF Document">
 
-            <embed src="pdf/History_of_Computer_Science_Group_Discussion_Questions.pdf" type="application/pdf"
-                width="800" height="1000" title="Embedded PDF Document">
+            <div id="modalbox" class="box">
+                <h2 style="text-align:center">Student Responses to History of Computer Science Group Discussion Questions</h2>
+
+                <div class="responsive">
+                    <div class="img">
+                        <img src="../img/History_CS_responses_1.jpg" class="thumbnail"
+                            alt="Thumbnail of one student's responses to the group discussion questions">
+                        <div class="desc">Student #1 Responses</div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="img">
+                        <img src="../img/History_CS_responses_2.jpg" class="thumbnail"
+                            alt="Thumbnail of one student's responses to the group discussion questions">
+                        <div class="desc">Student #2 Responses</div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="img">
+                        <img src="../img/History_CS_responses_3.jpg" class="thumbnail"
+                            alt="Thumbnail of one student's responses to the group discussion questions">
+                        <div class="desc">Student #3 Responses</div>
+                    </div>
+                </div>
+            </div>
 
             <iframe title="FAFSA: ANALYZE: A FAFSA Submission Summary"
-                src="https://docs.google.com/document/d/1vZ_wLhk6d91G0dWjN1TxRIoiOxVg-4N5ETtPT69OrGw/edit"
-                width="800" height="1000" allowfullscreen></iframe>
+                src="https://docs.google.com/document/d/1vZ_wLhk6d91G0dWjN1TxRIoiOxVg-4N5ETtPT69OrGw/edit" width="800"
+                height="1000" allowfullscreen></iframe>
 
             <iframe title="ANALIZAR: Un resumen de tramitación del formulario FAFSA"
                 src="https://docs.google.com/document/d/17nf6BGv8pPKPw0aUzA05JRCGGNGE-QC_kOnnBuEtb8I/edit?usp=sharing"
@@ -96,6 +274,43 @@
                 src="https://docs.google.com/spreadsheets/d/1YZTxqNx6rswe41J9zWqH-Qm2-k6Q6pDpUU9mFVk7wSk/edit?usp=sharing"
                 width="1200" height="800" allowfullscreen></iframe>
         </div>
+
+        <div class="clearfix"></div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">×</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            // Get all images and insert the clicked image inside the modal
+            // Get the content of the image description and insert it inside the modal image caption
+            var images = document.getElementsByTagName('img');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            var i;
+            for (i = 0; i < images.length; i++) {
+                images[i].onclick = function () {
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    modalImg.alt = this.alt;
+                    captionText.innerHTML = this.nextElementSibling.innerHTML;
+                }
+            }
+        </script>
     </section>
 </body>
 
