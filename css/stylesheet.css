@@ -90,7 +90,8 @@ div.grid1 {
     margin-bottom: 10px;
 }
 
-div.grid1 img {
+div.grid1 img, embed {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -286,7 +287,8 @@ h1.intasc {
 }
 
 h2,
-h3 {
+h3,
+h4 {
     text-align: center;
     font-family: 'Josefin Sans', 'Lucida Sans', Verdana, sans-serif;
     color: black;
