@@ -86,6 +86,10 @@ div.grid1 {
     margin-bottom: 10px;
 }
 
+div.grid1 {
+    width: 100%;
+}
+
 div.grid1 img,
 embed {
     margin-top: 10px;
@@ -338,6 +342,11 @@ embed {
     width: 95%;
     height: 95%;
     min-height: 900px;
+}
+
+embed.resume {
+    width: 50%;
+    max-width: 800px;
 }
 
 embed.short {
