@@ -78,24 +78,6 @@ section.intasc.grid3 {
     grid-template-columns: 40% 31% 26%;
 }
 
-
-
-.awardbox {
-    display: inline-block;
-    background-color: rgb(253, 236, 204);
-    color: rgb(12, 12, 85);
-    font-size: 24px;
-    width: 85%;
-    min-width: 200px;
-    height: fit-content;
-    border-color: rgb(12, 97, 34);
-    border-radius: 10px;
-    border: 5px solid;
-    border-style: double;
-    padding: 5px 25px;
-    margin-top: 20px;
-}
-
 .award-images {
     text-align: center;
 }
