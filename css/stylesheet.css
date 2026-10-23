@@ -367,8 +367,9 @@ embed {
 }
 
 embed.resume {
-    width: 50%;
-    max-width: 800px;
+    width: 70%;
+    max-width: 1200px;
+	height: 1200px;
     background-color: white;
 }
 
